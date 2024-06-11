@@ -17,5 +17,13 @@
 
 <p>More info: <a class="link"   href="https://hexo.io/docs/one-command-deployment.html" >Deployment <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
 ]]></content>
+      <categories>
+        <category>Test</category>
+      </categories>
+      <tags>
+        <tag>Demo</tag>
+        <tag>Hexo</tag>
+        <tag>Test</tag>
+      </tags>
   </entry>
 </search>
