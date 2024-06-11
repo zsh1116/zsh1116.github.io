@@ -87,20 +87,6 @@
       </tags>
   </entry>
   <entry>
-    <title>welcome</title>
-    <url>/2024/06/11/welcome/</url>
-    <content><![CDATA[<p>Welcome to my Blog ~</p>
-]]></content>
-      <categories>
-        <category>Test</category>
-      </categories>
-      <tags>
-        <tag>Demo</tag>
-        <tag>Hexo</tag>
-        <tag>Test</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2024/06/11/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
@@ -124,6 +110,42 @@
         <tag>Demo</tag>
         <tag>Hexo</tag>
         <tag>Test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>welcome</title>
+    <url>/2024/06/11/welcome/</url>
+    <content><![CDATA[<p>Welcome to my Blog ~</p>
+]]></content>
+      <categories>
+        <category>Test</category>
+      </categories>
+      <tags>
+        <tag>Demo</tag>
+        <tag>Hexo</tag>
+        <tag>Test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客园美化：添加live2d看板娘</title>
+    <url>/2024/06/11/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%B7%BB%E5%8A%A0live2d%E7%9C%8B%E6%9D%BF%E5%A8%98/</url>
+    <content><![CDATA[<p>将下列代码复制粘贴到<strong>页尾HTML</strong>：</p>
+<div class="highlight-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;!-- live2D --&gt;</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text/css&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://blog-static.cnblogs.com/files/zhangshuhao1116/waifu1.css&quot;</span>/&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;waifu&quot;</span> <span class="attr">id</span>=<span class="string">&quot;waifu&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;waifu-tips&quot;</span> <span class="attr">style</span>=<span class="string">&quot;opacity: 1;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">canvas</span> <span class="attr">id</span>=<span class="string">&quot;live2d&quot;</span> <span class="attr">width</span>=<span class="string">&quot;280&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">class</span>=<span class="string">&quot;live2d&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;waifu-tool&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;fui-home&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;fui-chat&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;fui-eye&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;fui-user&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;fui-photo&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;fui-info-circle&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;fui-cross&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://blog-static.cnblogs.com/files/zhangshuhao1116/live2d.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://blog-static.cnblogs.com/files/zhangshuhao1116/waifu-tips.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span>initModel()<span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text/css&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://blog-static.cnblogs.com/files/zhangshuhao1116/flat-ui.min.css&quot;</span>/&gt;</span></span></span><br></pre></td></tr></table></figure></div>
+
+<p>效果图如下：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/sucai/live2d.png"
+                      alt="img"
+                ></p>
+]]></content>
+      <categories>
+        <category>博客园美化</category>
+      </categories>
+      <tags>
+        <tag>博客园美化</tag>
+        <tag>live2d看板娘</tag>
       </tags>
   </entry>
   <entry>
@@ -163,16 +185,17 @@
       </tags>
   </entry>
   <entry>
-    <title>博客园美化：添加live2d看板娘</title>
-    <url>/2024/06/11/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%B7%BB%E5%8A%A0live2d%E7%9C%8B%E6%9D%BF%E5%A8%98/</url>
-    <content><![CDATA[<p>将下列代码复制粘贴到<strong>页尾HTML</strong>：</p>
-<div class="highlight-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;!-- live2D --&gt;</span><br><span class="line"></span><br><span class="line"> </span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text/css&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://blog-static.cnblogs.com/files/zhangshuhao1116/waifu1.css&quot;</span>/&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;waifu&quot;</span> <span class="attr">id</span>=<span class="string">&quot;waifu&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;waifu-tips&quot;</span> <span class="attr">style</span>=<span class="string">&quot;opacity: 1;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">canvas</span> <span class="attr">id</span>=<span class="string">&quot;live2d&quot;</span> <span class="attr">width</span>=<span class="string">&quot;280&quot;</span> <span class="attr">height</span>=<span class="string">&quot;250&quot;</span> <span class="attr">class</span>=<span class="string">&quot;live2d&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;waifu-tool&quot;</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;fui-home&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;fui-chat&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;fui-eye&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;fui-user&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;fui-photo&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;fui-info-circle&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;fui-cross&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://blog-static.cnblogs.com/files/zhangshuhao1116/live2d.min.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span>=<span class="string">&quot;https://blog-static.cnblogs.com/files/zhangshuhao1116/waifu-tips.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span>initModel()<span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">link</span> <span class="attr">rel</span>=<span class="string">&quot;stylesheet&quot;</span> <span class="attr">type</span>=<span class="string">&quot;text/css&quot;</span> <span class="attr">href</span>=<span class="string">&quot;https://blog-static.cnblogs.com/files/zhangshuhao1116/flat-ui.min.css&quot;</span>/&gt;</span></span></span><br></pre></td></tr></table></figure></div>
+    <title>博客园美化：添加赞赏功能</title>
+    <url>/2024/06/11/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%B7%BB%E5%8A%A0%E8%B5%9E%E8%B5%8F%E5%8A%9F%E8%83%BD/</url>
+    <content><![CDATA[<p>将以下代码复制粘贴到<strong>侧边栏HTML</strong>中：</p>
+<div class="highlight-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;!-- tctip 支付赞赏/打赏 --&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://blog-static.cnblogs.com/files/zhangshuhao1116/pay.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span> &lt;!-- js文件引入 --&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    <span class="keyword">new</span> <span class="title function_">tctip</span>(&#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="attr">top</span>: <span class="string">&#x27;20%&#x27;</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="attr">button</span>: &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            <span class="attr">id</span>: <span class="number">1</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            <span class="attr">type</span>: <span class="string">&#x27;dashang&#x27;</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        &#125;,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="attr">list</span>: [</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                <span class="attr">type</span>: <span class="string">&#x27;wechat&#x27;</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                <span class="attr">qrImg</span>: <span class="string">&#x27;https://files-cdn.cnblogs.com/files/zhangshuhao1116/vxpay.bmp&#x27;</span> <span class="comment">//替换成自己的微信付款码</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            &#125;, &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                <span class="attr">type</span>: <span class="string">&#x27;alipay&#x27;</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                <span class="attr">qrImg</span>: <span class="string">&#x27;http://files.cnblogs.com/files/zhangshuhao1116/zfbpay.bmp&#x27;</span> <span class="comment">//替换成自己的支付宝付款码</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            &#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        ]</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    &#125;).<span class="title function_">init</span>()</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div>
 
+<p>注意：别忘了修改里面的图片地址。</p>
 <p>效果图如下：</p>
 <p><img  
                      lazyload
                      src="/images/loading.svg"
-                     data-src="/images/sucai/live2d.png"
+                     data-src="/images/sucai/zanshang.png"
                       alt="img"
                 ></p>
 ]]></content>
@@ -181,7 +204,7 @@
       </categories>
       <tags>
         <tag>博客园美化</tag>
-        <tag>live2d看板娘</tag>
+        <tag>添加赞赏</tag>
       </tags>
   </entry>
   <entry>
@@ -207,29 +230,6 @@
       <tags>
         <tag>网站分享</tag>
         <tag>CUR转换器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客园美化：添加赞赏功能</title>
-    <url>/2024/06/11/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%B7%BB%E5%8A%A0%E8%B5%9E%E8%B5%8F%E5%8A%9F%E8%83%BD/</url>
-    <content><![CDATA[<p>将以下代码复制粘贴到<strong>侧边栏HTML</strong>中：</p>
-<div class="highlight-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;!-- tctip 支付赞赏/打赏 --&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://blog-static.cnblogs.com/files/zhangshuhao1116/pay.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span> &lt;!-- js文件引入 --&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    <span class="keyword">new</span> <span class="title function_">tctip</span>(&#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="attr">top</span>: <span class="string">&#x27;20%&#x27;</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="attr">button</span>: &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            <span class="attr">id</span>: <span class="number">1</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            <span class="attr">type</span>: <span class="string">&#x27;dashang&#x27;</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        &#125;,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="attr">list</span>: [</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                <span class="attr">type</span>: <span class="string">&#x27;wechat&#x27;</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                <span class="attr">qrImg</span>: <span class="string">&#x27;https://files-cdn.cnblogs.com/files/zhangshuhao1116/vxpay.bmp&#x27;</span> <span class="comment">//替换成自己的微信付款码</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            &#125;, &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                <span class="attr">type</span>: <span class="string">&#x27;alipay&#x27;</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                <span class="attr">qrImg</span>: <span class="string">&#x27;http://files.cnblogs.com/files/zhangshuhao1116/zfbpay.bmp&#x27;</span> <span class="comment">//替换成自己的支付宝付款码</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            &#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        ]</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    &#125;).<span class="title function_">init</span>()</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div>
-
-<p>注意：别忘了修改里面的图片地址。</p>
-<p>效果图如下：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/sucai/zanshang.png"
-                      alt="img"
-                ></p>
-]]></content>
-      <categories>
-        <category>博客园美化</category>
-      </categories>
-      <tags>
-        <tag>博客园美化</tag>
-        <tag>添加赞赏</tag>
       </tags>
   </entry>
   <entry>
