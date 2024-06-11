@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>emoji符号大全网址分享</title>
+    <url>/2024/06/11/emoji%E7%AC%A6%E5%8F%B7%E5%A4%A7%E5%85%A8%E7%BD%91%E5%9D%80%E5%88%86%E4%BA%AB/</url>
+    <content><![CDATA[<h2 class="cssreset"><span style="font-family: 'Microsoft YaHei';">这些特殊符号是什么？</span></h2>
+<p><span style="font-family: 'Microsoft YaHei';">&nbsp; &nbsp; <span style="font-size: 18px;">这些特殊符号是<span style="color: #e03e2d;">真实的文字</span>和<span style="color: #e03e2d;">可复制并粘贴</span>到任何地方，比如像微软的Word，脸谱，微博，HTML或博客。 点击下面链接进入emoji符号大全网站：</span></span></p>
+<p><span style="font-size: 18px; font-family: 'Microsoft YaHei';"><a class="link"   href="http://www.fhdq.net/emoji/emojifuhao.html#emojiwp"  target="_blank" rel="noopener">emoji符号大全 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></span></p>
+<p><span style="color: #ee1010;"><strong><span style="font-size: 18px;">注意：Win系统和Mac系统图案样式会不一样（Win无颜色，Mac有颜色），有些符号不兼容，在Mac系统上能正常显示，而在Win上只显示 🔄 。</span></strong></span></p>]]></content>
+      <categories>
+        <category>网站分享</category>
+      </categories>
+      <tags>
+        <tag>网站分享</tag>
+        <tag>emoji符号</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Symbol 引用 iconfont icon图标库</title>
     <url>/2024/06/11/Symbol%20%E5%BC%95%E7%94%A8%20iconfont%20icon%E5%9B%BE%E6%A0%87%E5%BA%93/</url>
     <content><![CDATA[<h1 id="Symbol-引用-iconfont-icon图标库"><a href="#Symbol-引用-iconfont-icon图标库" class="headerlink" title="Symbol 引用 iconfont icon图标库"></a>Symbol 引用 iconfont icon图标库</h1><h2 id="Symbol-引用"><a href="#Symbol-引用" class="headerlink" title="Symbol 引用"></a>Symbol 引用</h2><p>这是一种全新的使用方式，应该说这才是未来的主流，也是平台目前推荐的用法。相关介绍可以参考这篇文章 这种用法其实是做了一个 SVG 的集合，与另外两种相比具有如下特点：</p>
@@ -69,21 +84,6 @@
         <tag>网站分享</tag>
         <tag>confont</tag>
         <tag>icon图标库</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>emoji符号大全网址分享</title>
-    <url>/2024/06/11/emoji%E7%AC%A6%E5%8F%B7%E5%A4%A7%E5%85%A8%E7%BD%91%E5%9D%80%E5%88%86%E4%BA%AB/</url>
-    <content><![CDATA[<h2 class="cssreset"><span style="font-family: 'Microsoft YaHei';">这些特殊符号是什么？</span></h2>
-<p><span style="font-family: 'Microsoft YaHei';">&nbsp; &nbsp; <span style="font-size: 18px;">这些特殊符号是<span style="color: #e03e2d;">真实的文字</span>和<span style="color: #e03e2d;">可复制并粘贴</span>到任何地方，比如像微软的Word，脸谱，微博，HTML或博客。 点击下面链接进入emoji符号大全网站：</span></span></p>
-<p><span style="font-size: 18px; font-family: 'Microsoft YaHei';"><a class="link"   href="http://www.fhdq.net/emoji/emojifuhao.html#emojiwp"  target="_blank" rel="noopener">emoji符号大全 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></span></p>
-<p><span style="color: #ee1010;"><strong><span style="font-size: 18px;">注意：Win系统和Mac系统图案样式会不一样（Win无颜色，Mac有颜色），有些符号不兼容，在Mac系统上能正常显示，而在Win上只显示 🔄 。</span></strong></span></p>]]></content>
-      <categories>
-        <category>网站分享</category>
-      </categories>
-      <tags>
-        <tag>网站分享</tag>
-        <tag>emoji符号</tag>
       </tags>
   </entry>
   <entry>
@@ -185,29 +185,6 @@
       </tags>
   </entry>
   <entry>
-    <title>博客园美化：添加赞赏功能</title>
-    <url>/2024/06/11/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%B7%BB%E5%8A%A0%E8%B5%9E%E8%B5%8F%E5%8A%9F%E8%83%BD/</url>
-    <content><![CDATA[<p>将以下代码复制粘贴到<strong>侧边栏HTML</strong>中：</p>
-<div class="highlight-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;!-- tctip 支付赞赏/打赏 --&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://blog-static.cnblogs.com/files/zhangshuhao1116/pay.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span> &lt;!-- js文件引入 --&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    <span class="keyword">new</span> <span class="title function_">tctip</span>(&#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="attr">top</span>: <span class="string">&#x27;20%&#x27;</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="attr">button</span>: &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            <span class="attr">id</span>: <span class="number">1</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            <span class="attr">type</span>: <span class="string">&#x27;dashang&#x27;</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        &#125;,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="attr">list</span>: [</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                <span class="attr">type</span>: <span class="string">&#x27;wechat&#x27;</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                <span class="attr">qrImg</span>: <span class="string">&#x27;https://files-cdn.cnblogs.com/files/zhangshuhao1116/vxpay.bmp&#x27;</span> <span class="comment">//替换成自己的微信付款码</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            &#125;, &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                <span class="attr">type</span>: <span class="string">&#x27;alipay&#x27;</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                <span class="attr">qrImg</span>: <span class="string">&#x27;http://files.cnblogs.com/files/zhangshuhao1116/zfbpay.bmp&#x27;</span> <span class="comment">//替换成自己的支付宝付款码</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            &#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        ]</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    &#125;).<span class="title function_">init</span>()</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div>
-
-<p>注意：别忘了修改里面的图片地址。</p>
-<p>效果图如下：</p>
-<p><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="/images/sucai/zanshang.png"
-                      alt="img"
-                ></p>
-]]></content>
-      <categories>
-        <category>博客园美化</category>
-      </categories>
-      <tags>
-        <tag>博客园美化</tag>
-        <tag>添加赞赏</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>图标库网站分享</title>
     <url>/2024/06/11/%E5%9B%BE%E6%A0%87%E5%BA%93%E7%BD%91%E7%AB%99%E5%88%86%E4%BA%AB/</url>
     <content><![CDATA[<h1 id="Font-Awesome"><a href="#Font-Awesome" class="headerlink" title="Font Awesome"></a>Font Awesome</h1><h2 id="一套绝佳的图标字体库和CSS框架"><a href="#一套绝佳的图标字体库和CSS框架" class="headerlink" title="一套绝佳的图标字体库和CSS框架"></a>一套绝佳的图标字体库和CSS框架</h2><h3 id="Font-Awesome为您提供可缩放的矢量图标，您可以使用CSS所提供的所有特性对它们进行更改，包括：大小、颜色、阴影或者其它任何支持的效果。"><a href="#Font-Awesome为您提供可缩放的矢量图标，您可以使用CSS所提供的所有特性对它们进行更改，包括：大小、颜色、阴影或者其它任何支持的效果。" class="headerlink" title="Font Awesome为您提供可缩放的矢量图标，您可以使用CSS所提供的所有特性对它们进行更改，包括：大小、颜色、阴影或者其它任何支持的效果。"></a>Font Awesome为您提供可缩放的矢量图标，您可以使用CSS所提供的所有特性对它们进行更改，包括：大小、颜色、阴影或者其它任何支持的效果。</h3><h1 id="请点击Font-Awesome进入网站。"><a href="#请点击Font-Awesome进入网站。" class="headerlink" title="请点击Font Awesome进入网站。"></a>请点击<a class="link"   href="http://www.fontawesome.com.cn/faicons/" >Font Awesome <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>进入网站。</h1>]]></content>
@@ -230,6 +207,29 @@
       <tags>
         <tag>网站分享</tag>
         <tag>CUR转换器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客园美化：添加赞赏功能</title>
+    <url>/2024/06/11/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%B7%BB%E5%8A%A0%E8%B5%9E%E8%B5%8F%E5%8A%9F%E8%83%BD/</url>
+    <content><![CDATA[<p>将以下代码复制粘贴到<strong>侧边栏HTML</strong>中：</p>
+<div class="highlight-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;!-- tctip 支付赞赏/打赏 --&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;https://blog-static.cnblogs.com/files/zhangshuhao1116/pay.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span> &lt;!-- js文件引入 --&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    <span class="keyword">new</span> <span class="title function_">tctip</span>(&#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="attr">top</span>: <span class="string">&#x27;20%&#x27;</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="attr">button</span>: &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            <span class="attr">id</span>: <span class="number">1</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            <span class="attr">type</span>: <span class="string">&#x27;dashang&#x27;</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        &#125;,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="attr">list</span>: [</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                <span class="attr">type</span>: <span class="string">&#x27;wechat&#x27;</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                <span class="attr">qrImg</span>: <span class="string">&#x27;https://files-cdn.cnblogs.com/files/zhangshuhao1116/vxpay.bmp&#x27;</span> <span class="comment">//替换成自己的微信付款码</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            &#125;, &#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                <span class="attr">type</span>: <span class="string">&#x27;alipay&#x27;</span>,</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                <span class="attr">qrImg</span>: <span class="string">&#x27;http://files.cnblogs.com/files/zhangshuhao1116/zfbpay.bmp&#x27;</span> <span class="comment">//替换成自己的支付宝付款码</span></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            &#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        ]</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    &#125;).<span class="title function_">init</span>()</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure></div>
+
+<p>注意：别忘了修改里面的图片地址。</p>
+<p>效果图如下：</p>
+<p><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/sucai/zanshang.png"
+                      alt="img"
+                ></p>
+]]></content>
+      <categories>
+        <category>博客园美化</category>
+      </categories>
+      <tags>
+        <tag>博客园美化</tag>
+        <tag>添加赞赏</tag>
       </tags>
   </entry>
   <entry>
