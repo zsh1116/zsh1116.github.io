@@ -113,19 +113,6 @@
       </tags>
   </entry>
   <entry>
-    <title>博客园美化：JS实现页面复制内容时自动添加版权信息</title>
-    <url>/2024/06/11/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E7%BE%8E%E5%8C%96%EF%BC%9AJS%E5%AE%9E%E7%8E%B0%E9%A1%B5%E9%9D%A2%E5%A4%8D%E5%88%B6%E5%86%85%E5%AE%B9%E6%97%B6%E8%87%AA%E5%8A%A8%E6%B7%BB%E5%8A%A0%E7%89%88%E6%9D%83%E4%BF%A1%E6%81%AF/</url>
-    <content><![CDATA[<p>在页尾HTML中添加以下代码：</p>
-<div class="highlight-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;script  type=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><br><span class="line">    <span class="keyword">var</span> selfLogin = <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">var</span> follow = $(<span class="string">&#x27;#profile_block&#x27;</span>).<span class="title function_">find</span>(<span class="string">&#x27;#p_b_follow&#x27;</span>);</span><br><span class="line">    <span class="keyword">var</span> block = follow.<span class="property">length</span> &gt;= <span class="number">1</span> ? follow[<span class="number">0</span>] : <span class="string">&quot;&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> followText = (block != <span class="literal">null</span> &amp;&amp; block != <span class="literal">undefined</span>) ? block.<span class="property">innerHTML</span> : <span class="string">&quot;&quot;</span>;</span><br><span class="line">    <span class="keyword">if</span>(followText == <span class="string">&quot;&quot;</span>) selfLogin = <span class="literal">true</span>;</span><br><span class="line"> </span><br><span class="line">    <span class="keyword">var</span> pageInfo = <span class="string">&#x27;\r\n---------------------\r\n著作权归作者所有。\r\n&#x27;</span></span><br><span class="line">        + <span class="string">&#x27;商业转载请联系作者获得授权，非商业转载请注明出处。\r\n&#x27;</span></span><br><span class="line">        + <span class="string">&#x27;作者：Shu-How Z\r\n源地址：&#x27;</span> + <span class="variable language_">document</span>.<span class="property">location</span>.<span class="property">href</span></span><br><span class="line">        + <span class="string">&#x27;\r\n来源：博客园cnblogs\r\n© 版权声明：本文为博主原创文章，转载请附上博文链接！&#x27;</span>;</span><br><span class="line"> </span><br><span class="line">    <span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;copy&#x27;</span>, <span class="keyword">function</span> (<span class="params">ev</span>) &#123;</span><br><span class="line">        <span class="keyword">var</span> targetHTML = $.<span class="title function_">trim</span>($(ev.<span class="property">target</span>).<span class="title function_">html</span>());</span><br><span class="line">        <span class="comment">// console.log(&quot;targetHTML:&quot; + targetHTML)</span></span><br><span class="line">        <span class="keyword">if</span> (targetHTML == <span class="string">&quot;&quot;</span>) <span class="keyword">return</span>;</span><br><span class="line">        <span class="keyword">if</span> (!(targetHTML.<span class="title function_">startsWith</span>(<span class="string">&#x27;&lt;table class=&quot;hljs-ln&quot;&#x27;</span>) &amp;&amp; targetHTML.<span class="title function_">endsWith</span>(<span class="string">&#x27;&lt;/table&gt;&#x27;</span>)) || !selfLogin)  <span class="comment">// isLogined</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">var</span> selected = <span class="variable language_">window</span>.<span class="title function_">getSelection</span>();</span><br><span class="line">            <span class="keyword">var</span> selectedText = selected.<span class="title function_">toString</span>();  </span><br><span class="line">            <span class="keyword">let</span> copyRightStr = (selectedText + pageInfo).<span class="title function_">replace</span>(<span class="regexp">/\n/g</span>, <span class="string">&#x27;\r\n&#x27;</span>); <span class="comment">// Solve the line breaks conversion issue</span></span><br><span class="line"> </span><br><span class="line">            ev.<span class="property">clipboardData</span>.<span class="title function_">setData</span>(<span class="string">&#x27;text/plain&#x27;</span>, <span class="string">`<span class="subst">$&#123;copyRightStr&#125;</span>`</span>);</span><br><span class="line">            ev.<span class="title function_">preventDefault</span>();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure></div>]]></content>
-      <categories>
-        <category>博客园美化</category>
-      </categories>
-      <tags>
-        <tag>博客园美化</tag>
-        <tag>复制添加版权信息</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>welcome</title>
     <url>/2024/06/11/welcome/</url>
     <content><![CDATA[<p>Welcome to my Blog ~</p>
@@ -137,6 +124,19 @@
         <tag>Demo</tag>
         <tag>Hexo</tag>
         <tag>Test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客园美化：JS实现页面复制内容时自动添加版权信息</title>
+    <url>/2024/06/11/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E7%BE%8E%E5%8C%96%EF%BC%9AJS%E5%AE%9E%E7%8E%B0%E9%A1%B5%E9%9D%A2%E5%A4%8D%E5%88%B6%E5%86%85%E5%AE%B9%E6%97%B6%E8%87%AA%E5%8A%A8%E6%B7%BB%E5%8A%A0%E7%89%88%E6%9D%83%E4%BF%A1%E6%81%AF/</url>
+    <content><![CDATA[<p>在页尾HTML中添加以下代码：</p>
+<div class="highlight-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;script  type=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><br><span class="line">    <span class="keyword">var</span> selfLogin = <span class="literal">false</span>;</span><br><span class="line">    <span class="keyword">var</span> follow = $(<span class="string">&#x27;#profile_block&#x27;</span>).<span class="title function_">find</span>(<span class="string">&#x27;#p_b_follow&#x27;</span>);</span><br><span class="line">    <span class="keyword">var</span> block = follow.<span class="property">length</span> &gt;= <span class="number">1</span> ? follow[<span class="number">0</span>] : <span class="string">&quot;&quot;</span>;</span><br><span class="line">    <span class="keyword">var</span> followText = (block != <span class="literal">null</span> &amp;&amp; block != <span class="literal">undefined</span>) ? block.<span class="property">innerHTML</span> : <span class="string">&quot;&quot;</span>;</span><br><span class="line">    <span class="keyword">if</span>(followText == <span class="string">&quot;&quot;</span>) selfLogin = <span class="literal">true</span>;</span><br><span class="line"> </span><br><span class="line">    <span class="keyword">var</span> pageInfo = <span class="string">&#x27;\r\n---------------------\r\n著作权归作者所有。\r\n&#x27;</span></span><br><span class="line">        + <span class="string">&#x27;商业转载请联系作者获得授权，非商业转载请注明出处。\r\n&#x27;</span></span><br><span class="line">        + <span class="string">&#x27;作者：Shu-How Z\r\n源地址：&#x27;</span> + <span class="variable language_">document</span>.<span class="property">location</span>.<span class="property">href</span></span><br><span class="line">        + <span class="string">&#x27;\r\n来源：博客园cnblogs\r\n© 版权声明：本文为博主原创文章，转载请附上博文链接！&#x27;</span>;</span><br><span class="line"> </span><br><span class="line">    <span class="variable language_">document</span>.<span class="title function_">addEventListener</span>(<span class="string">&#x27;copy&#x27;</span>, <span class="keyword">function</span> (<span class="params">ev</span>) &#123;</span><br><span class="line">        <span class="keyword">var</span> targetHTML = $.<span class="title function_">trim</span>($(ev.<span class="property">target</span>).<span class="title function_">html</span>());</span><br><span class="line">        <span class="comment">// console.log(&quot;targetHTML:&quot; + targetHTML)</span></span><br><span class="line">        <span class="keyword">if</span> (targetHTML == <span class="string">&quot;&quot;</span>) <span class="keyword">return</span>;</span><br><span class="line">        <span class="keyword">if</span> (!(targetHTML.<span class="title function_">startsWith</span>(<span class="string">&#x27;&lt;table class=&quot;hljs-ln&quot;&#x27;</span>) &amp;&amp; targetHTML.<span class="title function_">endsWith</span>(<span class="string">&#x27;&lt;/table&gt;&#x27;</span>)) || !selfLogin)  <span class="comment">// isLogined</span></span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">var</span> selected = <span class="variable language_">window</span>.<span class="title function_">getSelection</span>();</span><br><span class="line">            <span class="keyword">var</span> selectedText = selected.<span class="title function_">toString</span>();  </span><br><span class="line">            <span class="keyword">let</span> copyRightStr = (selectedText + pageInfo).<span class="title function_">replace</span>(<span class="regexp">/\n/g</span>, <span class="string">&#x27;\r\n&#x27;</span>); <span class="comment">// Solve the line breaks conversion issue</span></span><br><span class="line"> </span><br><span class="line">            ev.<span class="property">clipboardData</span>.<span class="title function_">setData</span>(<span class="string">&#x27;text/plain&#x27;</span>, <span class="string">`<span class="subst">$&#123;copyRightStr&#125;</span>`</span>);</span><br><span class="line">            ev.<span class="title function_">preventDefault</span>();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure></div>]]></content>
+      <categories>
+        <category>博客园美化</category>
+      </categories>
+      <tags>
+        <tag>博客园美化</tag>
+        <tag>复制添加版权信息</tag>
       </tags>
   </entry>
   <entry>
@@ -185,18 +185,6 @@
       </tags>
   </entry>
   <entry>
-    <title>图标库网站分享</title>
-    <url>/2024/06/11/%E5%9B%BE%E6%A0%87%E5%BA%93%E7%BD%91%E7%AB%99%E5%88%86%E4%BA%AB/</url>
-    <content><![CDATA[<h1 id="Font-Awesome"><a href="#Font-Awesome" class="headerlink" title="Font Awesome"></a>Font Awesome</h1><h2 id="一套绝佳的图标字体库和CSS框架"><a href="#一套绝佳的图标字体库和CSS框架" class="headerlink" title="一套绝佳的图标字体库和CSS框架"></a>一套绝佳的图标字体库和CSS框架</h2><h3 id="Font-Awesome为您提供可缩放的矢量图标，您可以使用CSS所提供的所有特性对它们进行更改，包括：大小、颜色、阴影或者其它任何支持的效果。"><a href="#Font-Awesome为您提供可缩放的矢量图标，您可以使用CSS所提供的所有特性对它们进行更改，包括：大小、颜色、阴影或者其它任何支持的效果。" class="headerlink" title="Font Awesome为您提供可缩放的矢量图标，您可以使用CSS所提供的所有特性对它们进行更改，包括：大小、颜色、阴影或者其它任何支持的效果。"></a>Font Awesome为您提供可缩放的矢量图标，您可以使用CSS所提供的所有特性对它们进行更改，包括：大小、颜色、阴影或者其它任何支持的效果。</h3><h1 id="请点击Font-Awesome进入网站。"><a href="#请点击Font-Awesome进入网站。" class="headerlink" title="请点击Font Awesome进入网站。"></a>请点击<a class="link"   href="http://www.fontawesome.com.cn/faicons/" >Font Awesome <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>进入网站。</h1>]]></content>
-      <categories>
-        <category>网站分享</category>
-      </categories>
-      <tags>
-        <tag>网站分享</tag>
-        <tag>图标库</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>博客园美化：添加赞赏功能</title>
     <url>/2024/06/11/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%B7%BB%E5%8A%A0%E8%B5%9E%E8%B5%8F%E5%8A%9F%E8%83%BD/</url>
     <content><![CDATA[<p>将以下代码复制粘贴到<strong>侧边栏HTML</strong>中：</p>
@@ -220,16 +208,15 @@
       </tags>
   </entry>
   <entry>
-    <title>在线CUR转换器</title>
-    <url>/2024/06/11/%E5%9C%A8%E7%BA%BFCUR%E8%BD%AC%E6%8D%A2%E5%99%A8/</url>
-    <content><![CDATA[<h1 id="在线CUR转换器"><a href="#在线CUR转换器" class="headerlink" title="在线CUR转换器"></a>在线CUR转换器</h1><h2 id="在线将文件与cur相互免费转换"><a href="#在线将文件与cur相互免费转换" class="headerlink" title="在线将文件与cur相互免费转换"></a>在线将文件与cur相互免费转换</h2><h3 id="鼠标光标cur格式可以利用这网站在线免费转换成jpg，png等任意一种格式，方便快速！"><a href="#鼠标光标cur格式可以利用这网站在线免费转换成jpg，png等任意一种格式，方便快速！" class="headerlink" title="鼠标光标cur格式可以利用这网站在线免费转换成jpg，png等任意一种格式，方便快速！"></a>鼠标光标cur格式可以利用这网站在线免费转换成jpg，png等任意一种格式，方便快速！</h3><p>转换格式请点击<a class="link"   href="https://convertio.co/zh/cur-converter/" >在线CUR转换 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
+    <title>图标库网站分享</title>
+    <url>/2024/06/11/%E5%9B%BE%E6%A0%87%E5%BA%93%E7%BD%91%E7%AB%99%E5%88%86%E4%BA%AB/</url>
+    <content><![CDATA[<h1 id="Font-Awesome"><a href="#Font-Awesome" class="headerlink" title="Font Awesome"></a>Font Awesome</h1><h2 id="一套绝佳的图标字体库和CSS框架"><a href="#一套绝佳的图标字体库和CSS框架" class="headerlink" title="一套绝佳的图标字体库和CSS框架"></a>一套绝佳的图标字体库和CSS框架</h2><h3 id="Font-Awesome为您提供可缩放的矢量图标，您可以使用CSS所提供的所有特性对它们进行更改，包括：大小、颜色、阴影或者其它任何支持的效果。"><a href="#Font-Awesome为您提供可缩放的矢量图标，您可以使用CSS所提供的所有特性对它们进行更改，包括：大小、颜色、阴影或者其它任何支持的效果。" class="headerlink" title="Font Awesome为您提供可缩放的矢量图标，您可以使用CSS所提供的所有特性对它们进行更改，包括：大小、颜色、阴影或者其它任何支持的效果。"></a>Font Awesome为您提供可缩放的矢量图标，您可以使用CSS所提供的所有特性对它们进行更改，包括：大小、颜色、阴影或者其它任何支持的效果。</h3><h1 id="请点击Font-Awesome进入网站。"><a href="#请点击Font-Awesome进入网站。" class="headerlink" title="请点击Font Awesome进入网站。"></a>请点击<a class="link"   href="http://www.fontawesome.com.cn/faicons/" >Font Awesome <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>进入网站。</h1>]]></content>
       <categories>
         <category>网站分享</category>
       </categories>
       <tags>
         <tag>网站分享</tag>
-        <tag>CUR转换器</tag>
+        <tag>图标库</tag>
       </tags>
   </entry>
   <entry>
@@ -244,6 +231,19 @@
       <tags>
         <tag>网站分享</tag>
         <tag>手绘相片</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在线CUR转换器</title>
+    <url>/2024/06/11/%E5%9C%A8%E7%BA%BFCUR%E8%BD%AC%E6%8D%A2%E5%99%A8/</url>
+    <content><![CDATA[<h1 id="在线CUR转换器"><a href="#在线CUR转换器" class="headerlink" title="在线CUR转换器"></a>在线CUR转换器</h1><h2 id="在线将文件与cur相互免费转换"><a href="#在线将文件与cur相互免费转换" class="headerlink" title="在线将文件与cur相互免费转换"></a>在线将文件与cur相互免费转换</h2><h3 id="鼠标光标cur格式可以利用这网站在线免费转换成jpg，png等任意一种格式，方便快速！"><a href="#鼠标光标cur格式可以利用这网站在线免费转换成jpg，png等任意一种格式，方便快速！" class="headerlink" title="鼠标光标cur格式可以利用这网站在线免费转换成jpg，png等任意一种格式，方便快速！"></a>鼠标光标cur格式可以利用这网站在线免费转换成jpg，png等任意一种格式，方便快速！</h3><p>转换格式请点击<a class="link"   href="https://convertio.co/zh/cur-converter/" >在线CUR转换 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <categories>
+        <category>网站分享</category>
+      </categories>
+      <tags>
+        <tag>网站分享</tag>
+        <tag>CUR转换器</tag>
       </tags>
   </entry>
 </search>
