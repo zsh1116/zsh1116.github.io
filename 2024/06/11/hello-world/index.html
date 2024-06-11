@@ -566,11 +566,11 @@
       function loadWaline() {
         init({
           el: '#waline',
-          serverURL: 'https://waline-1-u1376310.deta.app/',
+          serverURL: 'https://waline-1-u1376310.deta.app',
           lang: 'zh-CN',
           dark: 'body[class~="dark-mode"]',
           requiredMeta: ['nick', 'mail'],
-          emoji: [],
+          emoji: ['//unpkg.com/@waline/emojis@1.2.0/weibo','//unpkg.com/@waline/emojis@1.2.0/bmoji','//unpkg.com/@waline/emojis@1.2.0/tieba','//unpkg.com/@waline/emojis@1.2.0/qq'],
           recaptchaV3Key: "wasd",
           
         });
