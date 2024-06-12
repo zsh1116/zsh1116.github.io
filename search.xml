@@ -162,29 +162,6 @@
       </tags>
   </entry>
   <entry>
-    <title>博客园美化：创建《留言板》导航栏</title>
-    <url>/2024/06/11/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E7%BE%8E%E5%8C%96%EF%BC%9A%E5%88%9B%E5%BB%BA%E3%80%8A%E7%95%99%E8%A8%80%E6%9D%BF%E3%80%8B%E5%AF%BC%E8%88%AA%E6%A0%8F/</url>
-    <content><![CDATA[<p>先创建一个空的随笔，在高级选项中的显示在我的博客首页☑️去掉，下面代码红色的链接改成自己刚创建的空随笔链接。</p>
-<p>添加代码：管理-设置-页首 HTML 代码：</p>
-<div class="highlight-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;script type=<span class="string">&quot;text/javascript&quot;</span> &gt;</span><br><span class="line">$(<span class="variable language_">document</span>).<span class="title function_">ready</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line"><span class="keyword">var</span> node = <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;navList&quot;</span>);</span><br><span class="line"><span class="keyword">var</span> childNode = node.<span class="title function_">getElementsByTagName</span>(<span class="string">&#x27;li&#x27;</span>);</span><br><span class="line"><span class="keyword">var</span> newNode_js = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&quot;li&quot;</span>);</span><br><span class="line">newNode_js.<span class="property">innerHTML</span> = <span class="string">&quot;&lt;a href=&#x27;https://www.cnblogs.com/zhangshuhao1116/p/14905863.html&#x27; class = &#x27;menu&#x27;&gt;留言板&lt;/a&gt;&quot;</span>;</span><br><span class="line">node.<span class="title function_">appendChild</span>(newNode_js);</span><br><span class="line">&#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure></div>
-
-<p>即可完成留言板的创建！</p>
-<p>效果图如下：<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://zsh1116.github.io/images/sucai/liuyan.png"
-                      alt="" width="932" height="232" 
-                ></p>
-]]></content>
-      <categories>
-        <category>博客园美化</category>
-      </categories>
-      <tags>
-        <tag>博客园美化</tag>
-        <tag>留言板</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>博客园美化：添加赞赏功能</title>
     <url>/2024/06/11/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E7%BE%8E%E5%8C%96%EF%BC%9A%E6%B7%BB%E5%8A%A0%E8%B5%9E%E8%B5%8F%E5%8A%9F%E8%83%BD/</url>
     <content><![CDATA[<p>将以下代码复制粘贴到<strong>侧边栏HTML</strong>中：</p>
@@ -205,6 +182,29 @@
       <tags>
         <tag>博客园美化</tag>
         <tag>添加赞赏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客园美化：创建《留言板》导航栏</title>
+    <url>/2024/06/11/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E7%BE%8E%E5%8C%96%EF%BC%9A%E5%88%9B%E5%BB%BA%E3%80%8A%E7%95%99%E8%A8%80%E6%9D%BF%E3%80%8B%E5%AF%BC%E8%88%AA%E6%A0%8F/</url>
+    <content><![CDATA[<p>先创建一个空的随笔，在高级选项中的显示在我的博客首页☑️去掉，下面代码红色的链接改成自己刚创建的空随笔链接。</p>
+<p>添加代码：管理-设置-页首 HTML 代码：</p>
+<div class="highlight-container" data-rel="Javascript"><figure class="iseeu highlight javascript"><table><tr><td class="code"><pre><span class="line">&lt;script type=<span class="string">&quot;text/javascript&quot;</span> &gt;</span><br><span class="line">$(<span class="variable language_">document</span>).<span class="title function_">ready</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line"><span class="keyword">var</span> node = <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;navList&quot;</span>);</span><br><span class="line"><span class="keyword">var</span> childNode = node.<span class="title function_">getElementsByTagName</span>(<span class="string">&#x27;li&#x27;</span>);</span><br><span class="line"><span class="keyword">var</span> newNode_js = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&quot;li&quot;</span>);</span><br><span class="line">newNode_js.<span class="property">innerHTML</span> = <span class="string">&quot;&lt;a href=&#x27;https://www.cnblogs.com/zhangshuhao1116/p/14905863.html&#x27; class = &#x27;menu&#x27;&gt;留言板&lt;/a&gt;&quot;</span>;</span><br><span class="line">node.<span class="title function_">appendChild</span>(newNode_js);</span><br><span class="line">&#125;);</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure></div>
+
+<p>即可完成留言板的创建！</p>
+<p>效果图如下：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://zsh1116.github.io/images/sucai/liuyan.png"
+                      alt="" width="932" height="232" 
+                ></p>
+]]></content>
+      <categories>
+        <category>博客园美化</category>
+      </categories>
+      <tags>
+        <tag>博客园美化</tag>
+        <tag>留言板</tag>
       </tags>
   </entry>
   <entry>
